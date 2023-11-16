@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hammersmith One', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #333399, #ff00cc);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    width: 50%;
+    border: 1px solid #ccc; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"],
+select,
+input[type="number"] {
+    width: 96%;
+    padding: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 2px;
+    margin: 5px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 80%; 
+}
+
+input[type="submit"] {
+    background-color: #db02b0cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: black !important;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 90%; 
+    }
+}
